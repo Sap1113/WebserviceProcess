@@ -95,10 +95,6 @@ public class GetListProcess extends AsyncTask<Void, Void, Integer> {
                     bean.endTime = usersobj.getString("endTime");
                     bean.id = usersobj.getString("id");
                     bean.user_id = usersobj.getString("user_id");
-                    bean.serviceId = usersobj.getString("serviceId");
-                    bean.stylistId = usersobj.getString("stylistId");
-                    bean.cost = usersobj.getString("cost");
-                    bean.status = usersobj.getString("status");
                     arrayListItem.add(bean);
 
                 }
